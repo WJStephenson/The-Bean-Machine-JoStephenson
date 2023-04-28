@@ -1,0 +1,124 @@
+.login-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+input {
+    border-radius: .6rem;
+    border: 0;
+    background-color: #f6f2ef;
+    text-indent: 1rem;
+    padding: 1rem;
+}
+
+.login,.login-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    width: 80vw;
+    max-width: 500px;
+    border: 2px solid #ff5678;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+    margin-bottom: 100px;
+}
+
+.login-input {
+    margin-top: 20px;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.login-heading,.login-item {
+    padding: 1rem;
+}
+
+.login-heading {
+    margin-bottom: 1rem;
+}
+
+.forgot-my-password {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.login-register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/* Media Queries */
+
+
+@media (max-width:600px) {
+    .navigation-container {
+        width: 100%;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .login-register {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .login-heading {
+        margin-bottom: 0;
+    }
+
+    .forgot-my-password {
+        margin: 1rem;
+    }
+
+    .login-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: .3rem;
+    }
+
+    .nav-item {
+        padding: 1rem;
+        margin: 0;
+        border-radius: 1rem;
+        border: 2px solid #000;
+        letter-spacing: 3px;
+    }
+
+    .nav-desktop-logo {
+        display: none;
+    }
+
+    .nav-mobile-logo {
+        display: block;
+    }
+
+    .login,.login-container {
+        margin: 0;
+    }
+
+    .login {
+        border: 0;
+        gap: 1rem;
+    }
+
+    .nav-item {
+        height: auto;
+        width: auto;
+    }
+}

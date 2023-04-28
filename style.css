@@ -1,0 +1,502 @@
+p, a, label {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+html,
+body {
+    margin: auto;
+    padding: 0;
+    width: 80vw;
+}
+
+/* Anchor Links and Behaviour */
+
+a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    scale: 1.05;
+}
+
+a:active {
+    transform: translateY(3px);
+}
+
+p, input, label, .coffee-name {
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+hr {
+    border-top: 3px;
+    border-color: black;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+/* Button Links and Behaviour */
+
+button, .button {
+    border-radius: 1rem;
+    border: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background-color: #FF5678;
+    color: white;
+    transition: transform 0.1s ease, scale 0.1s ease;
+}
+
+button:hover {
+    scale: 1.05;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+label {
+    font-weight: bold;
+}
+
+.input {
+    flex-basis: 364px;
+    height: 64px;
+    margin-right: 25px;
+    border-radius: 0.6rem;
+    border: 0px;
+    background-color: #F6F2EF;
+    text-indent: 1rem;
+}
+
+em {
+    color: #FF5678;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 120px;
+    padding: 60px 0px 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.container {
+    margin: auto;
+}
+
+
+/* Select Behaviour */
+
+select {
+    width: 160px;
+    height: 48px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #F6F2EF;
+    border-radius: 1.5rem;
+    border: 0;
+    letter-spacing: 3px;
+    text-indent: 1rem;
+    appearance: none;
+    padding-right: 20px;
+    background-image: url('assets/arrow_right_black.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+select:hover {
+    scale: 1.1;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 8rem;
+}
+
+.navigation-container {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 2rem 0;
+    align-items: center;
+    top: 0;
+    background-color: white;
+    position: fixed;
+    width: 80vw;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    top: 0;
+}
+
+.nav-item {
+    margin-left: 3rem;
+}
+
+.banner-text {
+    margin-top: 60px;
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.banner-image {
+    flex: 1 1 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar {
+    margin-top: 60px;
+    display: flex;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.p-item {
+    margin: 10px 0 10px;
+}
+
+.special-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    gap: 1rem;
+}
+
+.special {
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F2EF;
+    border-radius: 20px;
+    max-height: 411px;
+    max-width: 373px;
+    padding: 1rem;
+    position: relative;
+}
+
+.coffee-img {
+    padding: 1rem;
+}
+
+.coffee-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffee-name {
+    align-self: center;
+    padding: 1rem;
+}
+
+.special-coffee-name {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.special-item {
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.origin-info {
+    padding: 1rem;
+    font-weight: 500;
+    align-self: flex-start;
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-images {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.footer-logo {
+    margin: 10px;
+    width: 30px;
+    height: auto;
+}
+
+.selection-text {
+    display: flex;
+    align-items: center;
+}
+
+.available-tag {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.rectangle {
+    width: 117px;
+    height: 40px;
+    background-color: #149770;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.p-available {
+    color: white;
+}
+
+/* ID */
+
+#header-image {
+    width: 100%;
+    max-width: 700px;
+    min-width: 265px;
+    align-self: center;
+}
+
+#about-heading, #special-heading {
+    margin-bottom: 24px;
+}
+
+#submit {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  flex-shrink: 0;
+}
+
+#about-heading, #special-heading {
+    margin-bottom: 24px;
+}
+
+.nav-mobile-logo {
+    display: none;
+    width: 150px;
+    height: auto;
+}
+
+/* Media Queries */
+
+
+@media (min-width: 2250px) {
+    html, body {
+        width: 50vw;
+    }
+
+    .navigation-container {
+        width: 50vw;
+    }
+}
+
+@media (min-width: 1700px) {
+    html, body {
+        width: 65vw;
+    }
+
+    .navigation-container {
+        width: 65vw;
+    }
+}
+
+@media (max-width: 950px) {
+    html, body {
+        width: 90vw;
+    }
+
+    .navigation-container {
+        width: 90vw;
+    }
+
+    .special {
+        padding: 0.5rem;
+    }
+
+    .special-container {
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-image {
+        display: none;
+    }
+
+    .searchbar {
+        position: relative;
+        max-width: 368px;
+    }
+
+    .input {
+        margin-right: 0;
+    }
+
+    #submit {
+        position: absolute;
+        right: 0;
+        border-radius: 50% 0.5rem 0.5rem 50%;
+        height: 64px;
+    }
+
+    .special-container {
+        justify-content: center;
+    }
+
+    .special {
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 85vw;
+        justify-content: space-between;
+    }
+
+    .coffee-img {
+      display: none;
+    }
+
+    .coffee-name {
+        flex: 1 1 50%;
+        padding: 0.3rem;
+    }
+
+    .special-item {
+        flex: 0 1 80px;
+        margin: 0;
+    }
+
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 0.3rem;
+    }
+
+    .nav-item {
+        padding: 0.6rem;
+        margin: 0;
+        border-radius: 1rem;
+        border: 2px solid black;
+        letter-spacing: 3px;
+    }
+
+    .nav-desktop-logo {
+        display: none;
+    }
+
+    .nav-mobile-logo {
+        display: block;
+    }
+
+    .navigation-container {
+        width: 100%;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .banner-text {
+        margin: 0;
+        width: 320px;
+    }
+
+    .banner-container {
+        margin-top: 0;
+    }
+
+    .select-container {
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .selection-text {
+        gap: 2rem;
+        margin: 1rem;
+    }
+
+    select .nav-item {
+        padding: 0;
+    }
+
+    .coffee-title {
+        flex-direction: column;
+    }
+
+    .available-tag {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .rectangle {
+        width: 100px;
+        height: 30px;
+        background-color: #149770;
+        border-radius: 0 20px 0 20px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .special-coffee-name {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .input {
+        font-size: 1rem;
+    }
+}
